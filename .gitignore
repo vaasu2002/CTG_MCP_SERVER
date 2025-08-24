@@ -1,1 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
 .env
+
+# Packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# uv (package manager) cache
+.uv/
+.uv.lock
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
